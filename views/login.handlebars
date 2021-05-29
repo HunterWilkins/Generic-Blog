@@ -1,7 +1,10 @@
-<form autocomplete = "off" id = "login">
+<form autocomplete = "off" id = "login" data-type = "login">
+    <input autocomplete = "off" type="email" name = "email" placeholder = "Email" style = "display: none">
     <input type="text" name = "username" placeholder = "Username">
     <input type="password" placeholder = "Password">
     <button type="submit">Submit</button>
 </form>
+
+<button id = "toggle">Sign up?</button>
 
 <script src = "/js/login.js"></script>
